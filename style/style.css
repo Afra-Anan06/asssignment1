@@ -1,0 +1,38 @@
+.first-line {
+
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 180px;
+
+
+}
+
+.second-line {
+    
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+   text-align: center;
+
+}
+
+
+
+
+.secondpg
+{
+    display: block;
+   padding:10px 350px;
+   align-items: center;
+}
+
+.firstpg {
+
+    width: 100%;
+    height: 100%;
+    background-image: url('../resources/Banner\ Image.png');
+     background-repeat: no-repeat;
+  
+}
