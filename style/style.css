@@ -1,38 +1,130 @@
+.firstpg {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    /* position: relative; */
+
+    /* filter: brightness(70%);  */
+    /* width: 100%;
+    height: 100%;
+    background-image: url('../resources/Banner\ Image.png');
+    background-size: cover;
+    background-position: center;
+    display: block;
+    /* justify-content: center;
+    align-items: center; */
+}
+
 .first-line {
 
     color: #FFF;
     font-size: 32px;
     font-weight: 400;
     text-align: center;
-    padding: 180px;
+    vertical-align: middle;
+    padding-top: 180px;
+
 
 
 }
 
 .second-line {
-    
+
     color: #FFF;
     font-size: 72px;
     font-weight: 900;
-   text-align: center;
+    text-align: center;
+
 
 }
 
 
 
 
-.secondpg
-{
+.secondpg {
     display: block;
-   padding:10px 350px;
-   align-items: center;
+    align-items: center;
+    position: middle;
+    /* padding-left: 250px; */
+
 }
 
-.firstpg {
+.red {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+
+
+}
+
+.red2 {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.black3 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.img4 {
+
+    padding-left: 250px;
+}
+
+
+.thirdpg {
 
     width: 100%;
-    height: 100%;
-    background-image: url('../resources/Banner\ Image.png');
-     background-repeat: no-repeat;
-  
+    height: 100vh;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    position: relative;
+
+}
+
+
+
+.thirdpg p {
+    padding-left: 150px;
+}
+
+.second-line3 {
+
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: left;
+    padding-top: 150px;
+
+
+}
+
+.third-line {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.forth-line {
+    color: #FFF;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+
 }
