@@ -197,7 +197,7 @@
 }
 
 .sec2img {
-    
+
     border-radius: 463px;
     border: 25px solid #F00;
     /* border: 10px solid white; */
@@ -237,4 +237,72 @@
     font-weight: 400;
     line-height: 32px;
     /* 160% */
+}
+
+
+
+
+
+/* pg 6 */
+.six-sec1 {
+    display: block;
+    align-items: center;
+    position: middle;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+.six-l1 {
+    padding-top: 100px;
+    /* duita page er majhe padding 100 */
+    color: #070211;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 310px;
+
+}
+
+.six-l2p2 {
+    color: #F00;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    padding-left: 160px;
+}
+
+.six-l2 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
+.six-l3 {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+
+
+
+
+/* seven ph */
+.sec1-3-seven {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.seven-sec1 {
+    display: block;
+    display: contents;
 }
