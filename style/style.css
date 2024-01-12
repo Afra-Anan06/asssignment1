@@ -459,6 +459,7 @@
     display: flex;
 }
 
+
 .nsec3-1 {
     padding-left: 750px;
 }
@@ -467,4 +468,12 @@
 .sevenIm2 img {
     padding-left: 25px;
     padding-top: 25px;
+}
+.hr 
+{
+ color:  rgba(255, 255, 255, 0.15);
+ margin-bottom: 50px;
+ width: 1200px;
+
+
 }
