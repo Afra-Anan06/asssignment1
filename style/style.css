@@ -3,22 +3,16 @@
     width: 100%;
     height: 100vh;
     background-image: url('../resources/Banner\ Image.png');
+    /* background: linear-gradient(180deg, #070211 0%, rgba(87, 86, 89, 0) 100%); */
     background-repeat: no-repeat;
+    /* background: linear-gradient(to right, #000000, transparent); */
     background-size: cover;
     background-position: center;
     display: block;
-    /* position: relative; */
 
-    /* filter: brightness(70%);  */
-    /* width: 100%;
-    height: 100%;
-    background-image: url('../resources/Banner\ Image.png');
-    background-size: cover;
-    background-position: center;
-    display: block;
-    /* justify-content: center;
-    align-items: center; */
 }
+
+
 
 .first-line {
 
@@ -181,7 +175,7 @@
 
 
 
-/* five no page */
+/* five pg */
 
 .fivepg {
     display: flex;
@@ -196,19 +190,26 @@
 
 }
 
+.sec2div {
+    border-radius: 460px;
+    border: 10px solid red;
+    /* margin-right: 50px; */
+}
+
 .sec2img {
 
-    border-radius: 463px;
-    border: 25px solid #F00;
-    /* border: 10px solid white; */
-    margin-right: 50px;
+
+    /* border: 25px solid #F00; */
+    border: 10px solid white;
     width: 364.844px;
     height: 364.844px;
-    flex-shrink: 0;
-    border-radius: 364.844px;
-    background: url('/resources/Ellipse\ 1.png'), lightgray -91.279px 0px / 150.038% 100% no-repeat;
-    /* prb:background e na dile keno show kortechena */
+    border-radius: 364px;
 
+
+}
+
+.sec2 {
+    padding-right: 30px;
 }
 
 .sec3img {
@@ -243,7 +244,7 @@
 
 
 
-/* pg 6 */
+/* pg six */
 .six-sec1 {
     display: block;
     align-items: center;
@@ -251,6 +252,7 @@
     padding-left: 260px;
     padding-right: 260px;
 }
+
 
 .six-l1 {
     padding-top: 100px;
@@ -287,6 +289,31 @@
 
 }
 
+.six-sec2 {
+    display: flex;
+    margin-right: 0px;
+
+}
+.six-sec22
+{
+    padding-left: 105px;
+}
+
+
+
+.siximg2 {
+    margin-top: -300px;
+    margin-left: -150px;
+
+}
+
+.background-red {
+    height: 229px;
+    background: #F00;
+    margin-top: -230px;
+
+}
+
 .six-sec3 {
     background-image: url('/resources/Rectangle\ 2.png');
 
@@ -294,7 +321,13 @@
 
 
 
-/* seven ph */
+/* seven pg */
+
+.sevenpg
+{ 
+    padding-top: 50px ;
+    margin-left: 15px;
+}
 .sec1-3-seven {
     color: rgba(7, 2, 17, 0.60);
     width: 896px;
@@ -305,10 +338,15 @@
 }
 
 .seven-sec1 {
+
     display: block;
     display: contents;
+  
 }
-
+.seven-sec1 p
+{
+    margin-left: 50px;
+}
 .sevenIm1 .sevenIm2 {
     display: flex;
 }
@@ -329,6 +367,11 @@
 .eightpg {
     display: block;
     padding: 0px 240px;
+    margin-top: -110px;
+    height: 616px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
 }
 
 .eightpg p {
@@ -339,11 +382,45 @@
     padding: 0px 350px;
 }
 
+.input {
+    width: 648px;
+    height: 60px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+}
+
+.sub input {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sub button {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub {
+    display: flex;
+}
+
+.button {
+    width: 210px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+
 .ninepg p {
     color: #FFF;
     font-size: 24px;
 
 }
+
 
 .nsec1-1 {
     padding-left: 550px;
@@ -368,7 +445,7 @@
 }
 
 .ninepg {
-    width: 1600px;
+    width: 1330px;
     height: 609px;
     background: #070211;
 }
@@ -386,8 +463,9 @@
 .nsec3-1 {
     padding-left: 750px;
 }
-.sevenIm1 img ,.sevenIm2 img
-{
- padding-left: 25px;
- padding-top: 25px;
+
+.sevenIm1 img,
+.sevenIm2 img {
+    padding-left: 25px;
+    padding-top: 25px;
 }
