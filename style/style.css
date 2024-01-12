@@ -1,11 +1,12 @@
 .firstpg {
 
-   
+   margin-left: 8px;
+   margin-right: 8px;
     /* background-image: url('../resources/Banner\ Image.png'); */
 
     display: block;
-
 }
+
 .text
 {
     position: absolute;
