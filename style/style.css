@@ -287,10 +287,9 @@
 
 }
 
-.six-sec3
-{
-   background-image: url('/resources/Rectangle\ 2.png');
-  
+.six-sec3 {
+    background-image: url('/resources/Rectangle\ 2.png');
+
 }
 
 
@@ -309,9 +308,9 @@
     display: block;
     display: contents;
 }
-.sevenIm1 .sevenIm2
-{
-    display : flex ;
+
+.sevenIm1 .sevenIm2 {
+    display: flex;
 }
 
 .sevenIm1 img {
@@ -319,6 +318,7 @@
     height: 430px;
 
 }
+
 .sevenIm2 img {
     width: 400px;
     height: 430px;
@@ -326,16 +326,68 @@
 }
 
 
-.eightpg
-{
+.eightpg {
     display: block;
-    padding: 0px 240px ;
+    padding: 0px 240px;
 }
 
-.eightpg p 
-{ 
+.eightpg p {
     text-align: center;
 }
-.eightpg img{
-    padding:0px  350px;
+
+.eightpg img {
+    padding: 0px 350px;
+}
+
+.ninepg p {
+    color: #FFF;
+    font-size: 24px;
+
+}
+
+.nsec1-1 {
+    padding-left: 550px;
+}
+
+.nsec1 {
+    padding-left: 120px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+
+}
+
+.nsec3 {
+    padding-left: 120px;
+    padding-bottom: 50px;
+
+}
+
+.nsec2 {
+    padding-left: 33%;
+    padding-bottom: 50px;
+}
+
+.ninepg {
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+}
+
+.ninepg img {
+    padding-right: 15px;
+}
+
+.nsec1,
+.nses2,
+.nsec3 {
+    display: flex;
+}
+
+.nsec3-1 {
+    padding-left: 750px;
+}
+.sevenIm1 img ,.sevenIm2 img
+{
+ padding-left: 25px;
+ padding-top: 25px;
 }
